@@ -12,55 +12,54 @@
             display: flex;
             flex-wrap: wrap;
             width: 150px;
+            align-items: center;
+            justify-content: center;
         }
 
         .redondeado {
-            width: 80px;
-            height: 20px;
+            width: 120px;
+            height: 10px;
             background-color: darkseagreen;
-            border-radius: 15px 15px 0px 0px;
-            top: 50%;
-            left: 50%;
+            border-radius: 7px 7px 0px 0px;
 
         }
 
         .rectangulo {
-            width: 90px;
-            height: 20px;
+            width: 140px;
+            height: 10px;
             background-color: darkseagreen;
-            top: 50%;
-            left: 50%;
-
         }
 
         .rectangulogrande {
+            display: flex;
+            flex-wrap: wrap;
             width: 150px;
             height: 250px;
             background-color: darkseagreen;
-            top: 50%;
-            left: 50%;
+            align-items: center;
+            justify-content: center;
 
         }
 
         .circulorojo {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background-color: red;
             margin: 10px;
         }
 
         .circuloamarillo {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background-color: yellow;
             margin: 10px;
         }
 
         .circuloverde {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background-color: greenyellow;
             margin: 10px;
@@ -70,10 +69,15 @@
             width: 10px;
             height: 200px;
             background-color: darkseagreen;
-            top: 50%;
-            left: 50%;
+
         }
 
+        .rectangulobase {
+            width: 150px;
+            height: 10px;
+            background-color: darkseagreen;
+
+        }
 
         body {
             padding: 30px;
@@ -86,14 +90,15 @@
 
     <div class="contenedorsemaforo">
 
-        <p class="redondeado">texto redondeado superior</p>
-        <p class="rectangulo">texto fila pequeña </p>
+        <div class="redondeado"></div>
+        <div class="rectangulo"> </div>
         <div class="rectangulogrande">
             <div class="circulorojo"></div>
             <div class="circuloamarillo"></div>
             <div class="circuloverde"></div>
         </div>
-        <p class="rectangulofino"></p>
+        <div class="rectangulofino"></div>
+        <div class="rectangulobase"></div>
 
     </div>
 
