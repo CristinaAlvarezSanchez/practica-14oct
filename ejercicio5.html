@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+
+    <style>
+        form {
+            padding: 15px;
+        }
+
+        form div {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="registro.php" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos">
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="numero" id="edad">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <div>
+                <label for="telefono">Número de teléfono</label>
+                <input type="numero" id="telefono">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="texto" id="email">
+            </div>
+            <div>
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Sobre ti</legend>
+            <div>
+                <label for="aficiones"></label>
+                <textarea name="aficiones" id="aficiones" cols="70" rows="5">Aficiones</textarea>
+            </div>
+            <div>
+                <label for="presentacion"></label>
+                <textarea name="presentacion" id="presentacion" cols="70"
+                    rows="5">Breve presentacion sobre ti</textarea>
+            </div>
+            <div>
+                <label for="fotografia">Adjunta tu foto</label>
+                <input type=file id="fotografia">
+            </div>
+        </fieldset>
+        <div>
+            <label for="suscripcion">Quiero suscribirme a la newsletter</label>
+            <input type="checkbox" id="suscripcion">
+        </div>
+        <div>
+            <button type="submit">Enviar datos
+        </div>
+
+    </form>
+
+</body>
+
+</html>
