@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header ul li {
+    display: inline-block;
+    background-color: lightyellow;
+    padding: 10px;
+    color: black;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    color: tomato;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+    padding: 20px;
+}
